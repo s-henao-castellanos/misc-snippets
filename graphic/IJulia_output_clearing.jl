@@ -1,0 +1,2 @@
+using IJulia: push_postexecute_hook
+push_postexecute_hook(clear_history);
